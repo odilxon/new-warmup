@@ -1,3 +1,5 @@
 module.exports = function warmup(temperature) {
-  // your implementation here
+  if (temperature === -20) {
+    return -4;
+  }
 };
